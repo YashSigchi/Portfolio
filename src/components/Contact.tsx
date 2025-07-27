@@ -71,7 +71,7 @@ const Contact: React.FC = () => {
           from_name: 'Yash Sigchi', // Your name
           github_url: 'https://github.com/YashSigchi',
           linkedin_url: 'https://www.linkedin.com/in/yash-sigchi/',
-          portfolio_url: 'https://www.youtube.com/watch?v=THB9y6JqA8c', // Your portfolio URL
+          portfolio_url: 'https://yashsigchi-portfolio.onrender.com', // Your portfolio URL
         };
 
         console.log('Sending auto-reply with params:', senderTemplateParams);
