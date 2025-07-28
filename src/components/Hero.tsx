@@ -312,7 +312,7 @@ const Hero: React.FC = () => {
           </a>
 
           <motion.a
-            href="/resume.pdf"
+            href="/Yash_Resume.pdf"
             download="YashSigchi_Resume.pdf"
             className="px-8 py-4 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded-full font-semibold hover:border-blue-500 dark:hover:border-blue-400 hover:text-blue-500 dark:hover:text-blue-400 transition-all duration-300 backdrop-blur-sm bg-white/10 dark:bg-gray-800/10 relative overflow-hidden group"
             whileHover={{ 

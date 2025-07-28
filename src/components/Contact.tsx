@@ -290,7 +290,7 @@ const Contact: React.FC = () => {
 
             {/* Download Resume */}
             <motion.a
-              href="/resume.pdf"
+              href="/Yash_Resume.pdf"
               download="YashSigchi_Resume.pdf"
               className="flex items-center space-x-3 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
               whileHover={{ scale: 1.05, y: -2 }}
