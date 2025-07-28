@@ -9,7 +9,7 @@ export const projects: Project[] = [
     tags: ['Flutter', 'Firebase', 'OpenAI', 'Dart', 'Real-time'],
     badges: ['📱 Cross-platform', '🌐 Multilingual', '⚡ Real-time'],
     // demoUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/YashSigchi/BhashaBridge',
     featured: true
   },
   {
