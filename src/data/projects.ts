@@ -8,7 +8,7 @@ export const projects: Project[] = [
     image: 'https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg?auto=compress&cs=tinysrgb&w=800', // Mobile phone with chat interface
     tags: ['Flutter', 'Firebase', 'OpenAI', 'Dart', 'Real-time'],
     badges: ['📱 Cross-platform', '🌐 Multilingual', '⚡ Real-time'],
-    // demoUrl: '#',
+    demoUrl: 'https://github.com/YashSigchi/BhashaBridge/releases/download/v1.0/app-release.apk',
     githubUrl: 'https://github.com/YashSigchi/BhashaBridge',
     featured: true
   },
