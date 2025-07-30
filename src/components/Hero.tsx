@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion, Variants } from 'framer-motion';
 import { ChevronDownIcon } from '@heroicons/react/24/outline';
@@ -337,12 +336,11 @@ const Hero: React.FC = () => {
           ].map((fact, index) => (
             <motion.div
               key={index}
-              className="hidden md:block px-4 py-2 bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm rounded-full text-sm text-gray-600 dark:text-gray-400 border border-white/20 dark:border-gray-700/30 shadow-sm"
+              className="hidden md:block px-4 py-2 bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm rounded-full text-sm text-gray-700 dark:text-gray-300 border border-gray-200/50 dark:border-gray-600/50 shadow-sm"
               whileHover={{ 
                 scale: 1.1, 
-                y: -2, 
-                backgroundColor: "rgba(59, 130, 246, 0.1)",
-                borderColor: "rgba(59, 130, 246, 0.3)"
+                y: -2,
+                boxShadow: "0 8px 25px rgba(59, 130, 246, 0.15)"
               }}
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
             >
@@ -364,16 +362,16 @@ const Hero: React.FC = () => {
           ].map((stat, index) => (
             <motion.div
               key={index}
-              className="text-center p-4 rounded-2xl bg-white/30 dark:bg-gray-800/30 backdrop-blur-sm border border-white/20 dark:border-gray-700/30"
+              className="text-center p-4 rounded-2xl bg-white/40 dark:bg-gray-800/40 backdrop-blur-sm border border-gray-200/30 dark:border-gray-600/30"
               variants={itemVariants}
               whileHover={{ 
-                scale: 1.05, 
-                backgroundColor: "rgba(255, 255, 255, 0.4)",
-                borderColor: "rgba(59, 130, 246, 0.3)"
+                scale: 1.05,
+                boxShadow: "0 8px 25px rgba(59, 130, 246, 0.15)"
               }}
+              transition={{ type: "spring", stiffness: 300, damping: 20 }}
             >
               <motion.div 
-                className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
+                className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 bg-clip-text text-transparent"
                 whileHover={{ scale: 1.1 }}
               >
                 {stat.number}
